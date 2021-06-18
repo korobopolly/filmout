@@ -1,0 +1,101 @@
+a {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 2rem;
+}
+
+.underline{
+    width:40rem;
+    height:5rem;
+    font-size:2rem;
+    text-align: left;
+    background-color: $color-background;
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    border-bottom-width:1;
+    color:$color-white;
+    border-color: $color-white;
+
+    &-data{
+        height:5rem;
+        font-size:2rem;
+        text-align: left;
+        background-color: $color-background;
+        width:16%;
+        border-left-width:0;
+        border-right-width:0;
+        border-top-width:0;
+        border-bottom-width:1;
+        color:$color-white;
+        border-color: $color-white;
+    }
+}
+
+.center-form{
+    margin-left: 21%;
+}
+
+.center-button{
+    text-decoration: none;
+    color: $color-background;
+    width:40rem;
+    height:5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    background-color: $color-white;
+    border-radius: 3rem;
+    margin-top: 1.5rem;
+    border-color: $color-white;
+    transform: translate(88%,0%);
+}
+
+.login-button{
+    text-decoration: none;
+    width:40rem;
+    height:5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    border-radius: 3rem;
+    margin-top: 1.5rem;
+    border-color: $color-white;
+    background-color: $color-white;
+    color: $color-background;
+}
+
+.reverse-button{
+    text-decoration: none;
+    width:40rem;
+    height:5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    border-radius: 3rem;
+    margin-top: 1.5rem;
+    border-color: $color-white;
+    background-color: $color-background;
+    color: $color-white;
+}
+
+.banner-center{
+    margin:0 auto;
+    width:50%;
+}
+
+.banner{
+    width:100%;
+    padding-top:2rem;
+    margin-top: 7rem;
+}
+
+.foot-text{
+    color:$color-white;
+    font-size: 1.5rem;
+    margin-left: 1%;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+
+    &-link{
+        color:$color-white;
+        font-size: 1.5rem;
+    }
+}

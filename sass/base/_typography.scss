@@ -1,0 +1,85 @@
+body{
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+}
+
+.heading-first {
+    color: white;
+    font-size: 4rem;
+
+    &-class{
+        margin-top: 7rem;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        color: white;
+    }
+}
+
+.heading-secondary{
+    color: $color-white;
+    margin-left: 20%;
+    margin-top: 7rem;
+    font-size: 3.5rem;
+
+    &--genre{
+        margin-top: 4rem;
+        color: $color-white;
+        margin-left: 20%;
+        font-size: 3.5rem;
+    }
+
+    &--center{
+        color: $color-white;
+        margin-top: 10rem;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+}
+
+.movie{
+    &-genre{
+        font-size: $default-font-size;
+        color: $color-logo;
+    }
+    
+    &-name{
+        font-size: $default-font-size;
+        color: $color-white;
+    }
+
+    &-category {
+        color: $color-white;
+        font-size: 2.5rem;
+        padding-left: 20%;      
+        text-align: justify;
+        padding-top: 3rem;
+    
+        &--main {
+            margin-right: 5rem;
+
+            &:hover{
+                background-color: $color-menu-hover;
+                border-radius: .4rem;
+            }
+        }
+
+        &--sub {
+            &:hover{
+                background-color: $color-menu-hover;
+                border-radius: .4rem;
+            }
+        }
+      
+    }
+}
+
+//placeholder
+input::-ms-input-placeholder { color: $color-placeholder; }
+input::-webkit-input-placeholder { color: $color-placeholder; }
+input::-moz-placeholder { color: $color-placeholder; }
+
+.review-title::-ms-input-placeholder { color: $color-gray-dark; }
+.review-title::-webkit-input-placeholder { color: $color-gray-dark; }
+.review-title::-moz-placeholder { color: $color-gray-dark; }

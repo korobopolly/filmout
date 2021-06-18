@@ -1,0 +1,115 @@
+.review{
+    font-size: 1.5rem;
+    width:50rem;
+    height:16rem;
+    resize: none;
+    color:$color-review;
+    background-color: $color-review-bg;
+    border-style: none;
+
+
+    &-hr{
+        background-color: $color-black;
+        height:1px;
+        border:0px;
+    }
+
+    &-bg{
+        background-color: $color-review-bg;
+    }
+
+    &-title{
+        height:5rem;
+        text-align: left;
+        width:50rem;
+        font-size: 1.5rem;
+        border-style: none;
+        color:$color-review;
+        background-color: $color-review-bg;
+    }
+
+    &-write{
+        text-decoration: none;
+        text-align: center;
+        width:20rem;
+        height:5rem;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: $color-white;
+        background-color: $color-review-btn;
+        border-radius: 3rem;
+        border-color: $color-white;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        margin-top: 3rem;
+
+        &:hover{
+            color:$color-review-btn;
+            background-color: $color-white;
+            box-shadow: 0 1rem 2rem rgba($color-black, .15);
+            transform: translateY(-2px);
+        }
+    
+        &:active{
+            box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+            transform: translateY(0);
+        }
+
+        &-center{
+            text-align: center;
+        }
+    }
+
+    &-btn{
+        text-decoration: none;
+        color: $color-white;
+        width:10rem;
+        height:3rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: $color-review-btn;
+        border-radius: 3rem;
+        border-color: $color-white;
+        float:right;
+        margin-right: 0.8rem;
+        margin-top: 0.8rem;
+
+        &:hover{
+            color:$color-review-btn;
+            background-color: $color-white;
+            box-shadow: 0 1rem 2rem rgba($color-black, .15);
+            transform: translateY(-2px);
+        }
+    
+        &:active{
+            box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+            transform: translateY(0);
+        }
+
+        &-normal{
+            text-decoration: none;
+            color: $color-white;
+            width:10rem;
+            height:3rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background-color: $color-review-btn;
+            border-radius: 3rem;
+            border-color: $color-white;
+            margin-left: 2rem;
+            float:none;
+
+            &:hover{
+                color:$color-review-btn;
+                background-color: $color-white;
+                box-shadow: 0 1rem 2rem rgba($color-black, .15);
+                transform: translateY(-2px);
+            }
+        
+            &:active{
+                box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+                transform: translateY(0);
+            }
+        }
+    }
+}

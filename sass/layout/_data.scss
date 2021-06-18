@@ -1,0 +1,29 @@
+.data{
+    text-align: -webkit-center;
+    margin-bottom: 3rem;
+
+    &-search{
+        padding-left: 20%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    &-title{
+        font-size: 3rem;
+        padding: 3rem;
+        padding-bottom: 0rem;
+        text-align: left;
+        width:40rem;
+        color:$color-review;
+        background-color: $color-review-bg;
+    }
+
+    &-data{
+        font-size: 2.5rem;
+        padding: 3rem;
+        text-align: justify;
+        width:40rem;
+        color:$color-review;
+        background-color: $color-review-bg;
+    }
+}

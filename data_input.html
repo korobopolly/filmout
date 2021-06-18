@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/icon-font.css">
+
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <meta property="og:site_name" content=""/>
+        <meta property="og:site" content=""/>
+        <meta property="og:title" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:image" content=""/>
+        <meta property="og:url" content=""/>
+        <meta property="og:type" content="article"/>
+
+        <!-- Website Title -->
+        <title>Flim out</title>
+
+        <!-- Styles -->
+
+        <script language="javascript">
+
+            function Input(){
+                if(document.frmInput.title.value == ""){
+                    alert("영화 제목을 입력하지 않았습니다.");
+                    document.frmInput.title.focus();
+                    return false;
+                }
+                if(document.frmInput.data.value == ""){
+                    alert("리뷰를 입력하지 않았습니다.");
+                    document.frmInput.data.focus();
+                    return false;
+                }
+
+                document.frmInput.submit();
+            }
+        </script>
+    </head>
+    <body class="review-bg">
+        <!--리뷰 버튼
+        <div class="good_bad_button">
+            <div class="review-write-center">
+                <input type="button" value="좋아요" class="review-write" onclick="showPopup();"/>
+                <input type="button" value="별로예요" class="review-write" onclick="showPopupBad();"/>
+            </div>
+
+            <script language="javascript">
+                function showPopup() { window.open("data_input.html","리뷰 쓰기","width=470,height=250,toolbars=no,menubar=no,resizable=no, scrollbars=no");}
+                function showPopupBad() { window.open("data_input_bad.html","리뷰 쓰기","width=470,height=250,toolbars=no,menubar=no,resizable=no, scrollbars=no");}
+            </script>
+        </div>
+        -->
+
+        <form name="frmInput" action="datawrite.php" method="post" enctype="multipart/form-data">
+            <input type="text" name="title" id="title" class="review-title" placeholder=" 영화 제목을 적어주세요." required></input>
+            <hr class="review-hr"><br>
+
+            <textarea type="text" name="data" id="data" class="review" placeholder=" 리뷰를 적어주세요." required></textarea>
+
+            <button type="button" onclick="Input()" class="review-btn">리뷰 쓰기</button>
+        </form>
+    </body>
+</html>
