@@ -117,12 +117,12 @@
                     <div class="col-1-of-3">
                         <div class="poster">
                             <a href="lucky.php"><img src="img/lucky.jpg" alt="" class="poster-small"></a>
-                                <div class="movie-genre">
-                                    코미디
-                                </div>
-                                <div class="movie-name">
-                                    럭키
-                                </div>
+                            <div class="movie-genre">
+                                코미디
+                            </div>
+                            <div class="movie-name">
+                                럭키
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -333,7 +333,7 @@
                 <div class="row">
                     <div class="col-1-of-3">
                         <div class="poster">
-                            <a href="minari.php"><img src="img/hangover.jpg" alt="" class="poster-small"></a>
+                            <a href="hangover.php"><img src="img/hangover.jpg" alt="" class="poster-small"></a>
                             <div class="movie-genre">
                                 코미디
                             </div>
