@@ -180,7 +180,7 @@
                                 SF
                             </div>
                             <div class="movie-name">
-                                컨텍트
+                                컨택트
                             </div>
                         </div>
                     </div>
