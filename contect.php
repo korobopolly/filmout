@@ -46,7 +46,7 @@
         <!-- 상단 메뉴 종료 -->
 
         <div class="main_text1">
-            <h1 class="heading-first">컨텍트</h1>
+            <h1 class="heading-first">컨택트</h1>
             <div class="contents1"> SF / 미스터리
                 <div class="service">
                     <div class="the spy_poster">
@@ -215,7 +215,7 @@
         </div>
 
         <?php
-            $search='컨텍트';
+            $search='컨택트';
 
             $con=mysqli_connect("localhost","shqkd1492","1234","sungkyul");
             $sql="SELECT * FROM data where data_title like '%$search%'";

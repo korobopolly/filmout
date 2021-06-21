@@ -215,7 +215,7 @@
         </div>
 
         <?php
-            $search='해피버스데이';
+            $search='해피데스데이';
 
             $con=mysqli_connect("localhost","shqkd1492","1234","sungkyul");
             $sql="SELECT * FROM data where data_title like '%$search%'";
