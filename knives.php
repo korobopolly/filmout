@@ -44,44 +44,40 @@
             </div>
         </nav> 
         <!-- 상단 메뉴 종료 -->
-
         
         <div class="main_text1">
-            <h1 class="heading-first">스파이 </h1>
-            <div class="contents1"> 액션/코미디
+            <h1 class="heading-first">나이브스 아웃</h1>
+            <div class="contents1"> 스틸러 / 미스터리
                 <div class="service">
-                    <div>
-                        <img src="img/spy.jpg" class="poster-info">
+                    <div class="the spy_poster">
+                        <img src="img/knives.jpg" height="430" width="400">
                     </div>
 
                     <div class="contents2">
-                        <h2 class="heading-grade">관람객 평점 7.7</h2>
+                        <h2 class="heading-grade">관람객 평점 8.8</h2>
 
-                        <h4>스파이도 모르는 스파이!
-                        <br>그들이 벌써 긴장했다!</h4>
+                        <h4>로튼 토마토 신선도 지수 99%! </h4>
+                        <h4>추리 스릴러 장르로는 이례적인 기록!</h4>
 
                         <div style="font-size:15px;">
-                            <br><p>현장 요원들의 임무 수행을 돕는 CIA의 내근 요원 수잔 쿠퍼(멜리사 맥카시). 외모, 임무 수행 등 완벽한 최고의 요원 브래들리</p>
-                            <p>파인(주드 로)의 파트너로 임무를 수행을 하던 중, 핵무기 밀거래를 추진하는 마피아들에게 CIA 현장 요원들의 신분이 모두</p>
-                            <p>노출되는 사건이 발생한다. 마피아들이 모르는 내근 요원 수잔은 CIA의 최대 위기를 극복하고 핵무기의 밀거래를 막기 위해</p>
-                            <p>현장에 투입된다. 그러나, 그녀를 못 믿는 ‘자칭’ 최고의 요원 릭 포드(제이슨 스타뎀)가 그녀와 별개로 임무를 수행하면서 그</p>
-                            <p>녀의 미션은 위기에 직면하게 되는데…</p>
+                            <br>베스트셀러 미스터리 작가가 85세 생일에 숨진 채 발견된다.
+                            <br>그의 죽음의 원인을 파헤치기 위해 경찰과 함께 탐정 브누아 블랑이 파견 되는데…
                         </div>
 
                         <div class="line">
                         </div>
 
                         <div style="font-size:15px;">
-                            <br><p> 15+ | 2시간 2분 </p>  
-                            <p> 액션/코미디</p> <!--추후 수정-->
+                            <br>12+ | 2시간 10분
+                            <p>미스터리 | 추리</p>
                         </div>
 
                         <div class="line">
                         </div>
 
                         <div style="font-size:15px;">
-                            <br><p>감독 : 폴 페이그</p> 
-                            <p>수상 : 없음</p> 
+                            <br>감독 : 라이언 존슨
+                            <p>제작: 밥 버그먼, 라이언 존슨 </p> 
                         </div>
                     </div>
                 </div>
@@ -96,11 +92,12 @@
         </div>
 
         <div class="trailer-detail">
-            <video src="trailer/spy.mp4" class = "video-info" controls autoplay muted></video>
+            <video src="trailer/knives.mp4" class="video-info" controls autoplay muted></video>
         </div>
 
         <div class="line-second">
         </div>
+
 
         <div class="font-info">
             스틸컷
@@ -110,19 +107,19 @@
             <div class="row">
                 <div class="col-1-of-3">
                     <div class="poster">
-                       <img src="img/spy-cut.jpg" alt="" class="still-cut">
+                       <img src="img/knives-cut.jpg" alt="" class="still-cut">
                     </div>
                 </div>
 
                 <div class="col-1-of-3">
                     <div class="poster">
-                        <img src="img/spy-cut02.jpg" alt="" class="still-cut">
+                        <img src="img/knives-cut02.webp" alt="" class="still-cut">
                     </div>
                 </div>
 
                 <div class="col-1-of-3">
                     <div class="poster">
-                        <img src="img/spy-cut03.jpg" alt="" class="still-cut">
+                        <img src="img/knives-cut03.jpg" alt="" class="still-cut">
                     </div>
                 </div>
             </div>
@@ -139,52 +136,76 @@
             <div class="row">
                 <div class="col-1-of-6">
                     <div class="poster">
-                        <img src="img/paulpag.jpg" alt="" class="poster-actor">
+                        <img src="img/johnson.jpg" alt="" class="poster-actor">
                         <div class="movie-genre">
                             감독 
                         </div>
                         <div class="movie-name">
-                        폴 페이그
+                            라이언 존슨
                         </div>
                     </div>
                 </div>
 
                 <div class="col-1-of-6">
                     <div class="poster">
-                        <img src="img/maccasy.jpg" alt="" class="poster-actor">
+                        <img src="img/daniel.jpg" alt="" class="poster-actor">
                         <div class="movie-genre">
-                        수잔 쿠퍼 역
+                           브누아 블랑 역 
                         </div>
-                        <div class="movie-name">
-                        멜리사 맥카시
+                        <div class="movie-name">    
+                           다니엘 크레이그
                         </div>
                     </div>
                 </div>
 
                 <div class="col-1-of-6">
                     <div class="poster">
-                        <img src="img/stardem.jpg" alt="" class="poster-actor">
+                        <img src="img/evans.jpg" alt="" class="poster-actor">
                         <div class="movie-genre">
-                        릭 포드 역
+                            랜섬 드라이즈데일 역 
                         </div>
                         <div class="movie-name">
-                        제이슨 스타뎀
+                            크리스 에반스
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-1-of-6">
+                    <div class="poster">
+                        <img src="img/ana.jpg" alt="" class="poster-actor">
+                        <div class="movie-genre">
+                           마르타 카브레라 역 
+                        </div>
+                        <div class="movie-name">
+                            아나 디 아르마스
                         </div>
                     </div>
                 </div>
 
                 <div class="col-1-of-6">
                     <div class="poster">
-                        <img src="img/judro.jpg" alt="" class="poster-actor">
+                        <img src="img/jamie.jpg" alt="" class="poster-actor">
                         <div class="movie-genre">
-                        브래들리 파인 역
+                            린다 드라이즈데일 역
                         </div>
                         <div class="movie-name">
-                        주드 로
+                            제이미 리 커티스
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="col-1-of-6">
+                    <div class="poster">
+                        <img src="img/shannon.jpg" alt="" class="poster-actor">
+                        <div class="movie-genre">
+                            윌트 트롬비 역 
+                        </div>
+                        <div class="movie-name">
+                            마이클 새넌
+                        </div>
+                    </div>
+                </div>
+            </div>   
         </section>
     
         <!--리뷰 시작-->
@@ -208,7 +229,7 @@
         </div>
 
         <?php
-            $search='스파이';
+            $search='나이브스아웃';
 
             $con=mysqli_connect("localhost","shqkd1492","1234","sungkyul");
             $sql="SELECT * FROM data where data_title like '%$search%'";
@@ -263,8 +284,8 @@
             }
         ?>
         
-    </body> 
+    </body>
     <footer>
         <div class="foot-text">About FilmOut &nbsp;&nbsp;&nbsp; <a href="mailto: ms.nununana@gmail.com" title="광고 문의" class="foot-text-link">광고</a> &nbsp;&nbsp;&nbsp; <a href="mailto: ms.nununana@gmail.com" title="문의 / 피드백" class="foot-text-link">문의 / 피드백</a></div>
-    </footer>
+    </footer> 
  </html>      

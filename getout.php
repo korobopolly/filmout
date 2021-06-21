@@ -44,44 +44,43 @@
             </div>
         </nav> 
         <!-- 상단 메뉴 종료 -->
-
         
         <div class="main_text1">
-            <h1 class="heading-first">스파이 </h1>
-            <div class="contents1"> 액션/코미디
+            <h1 class="heading-first">겟 아웃</h1>
+            <div class="contents1"> 스릴러 / 호러
                 <div class="service">
-                    <div>
-                        <img src="img/spy.jpg" class="poster-info">
+                    <div class="the spy_poster">
+                        <img src="img/getout.jpg" height="430" width="400">
                     </div>
 
                     <div class="contents2">
-                        <h2 class="heading-grade">관람객 평점 7.7</h2>
+                        <h2 class="heading-grade">관람객 평점 8.5</h2>
 
-                        <h4>스파이도 모르는 스파이!
-                        <br>그들이 벌써 긴장했다!</h4>
+                        <h4>흑인 남자가 백인 여자친구 집에 초대 받으면서 벌어지는 이야기를 그린 영화 </h4>
 
                         <div style="font-size:15px;">
-                            <br><p>현장 요원들의 임무 수행을 돕는 CIA의 내근 요원 수잔 쿠퍼(멜리사 맥카시). 외모, 임무 수행 등 완벽한 최고의 요원 브래들리</p>
-                            <p>파인(주드 로)의 파트너로 임무를 수행을 하던 중, 핵무기 밀거래를 추진하는 마피아들에게 CIA 현장 요원들의 신분이 모두</p>
-                            <p>노출되는 사건이 발생한다. 마피아들이 모르는 내근 요원 수잔은 CIA의 최대 위기를 극복하고 핵무기의 밀거래를 막기 위해</p>
-                            <p>현장에 투입된다. 그러나, 그녀를 못 믿는 ‘자칭’ 최고의 요원 릭 포드(제이슨 스타뎀)가 그녀와 별개로 임무를 수행하면서 그</p>
-                            <p>녀의 미션은 위기에 직면하게 되는데…</p>
+                            <br>어두운 밤 주택가. 한 흑인 남성이 통화를 하면서 어딘가로 걸어간다.
+                            <br>그런데 지나가던 차가 옆에서 멈추더니 남자를 슬금슬금 쫓아오기 시작한다.   
+                            <p>무언가 수상함을 눈치챈 남자. </p>
+                            <p>따라오는 차의 반대 방향으로 돌아서 걸어가다가 돌아보니 차가 도로가에 멈춰있다. </p>
+                            <p>그러나 무언가를 생각할 새도 없이 차에서 나온 정체불명의 괴한에게 </p>
+                            <p>목이 졸리고 그대로 차에 실려 납치되고 만다.</p>
                         </div>
 
                         <div class="line">
                         </div>
 
                         <div style="font-size:15px;">
-                            <br><p> 15+ | 2시간 2분 </p>  
-                            <p> 액션/코미디</p> <!--추후 수정-->
+                            <br>15+ | 1시간 44분
+                            <p>공포 | 긴장감</p>
                         </div>
 
                         <div class="line">
                         </div>
 
                         <div style="font-size:15px;">
-                            <br><p>감독 : 폴 페이그</p> 
-                            <p>수상 : 없음</p> 
+                            <br>감독 : 조던 필
+                            <p>수상: 아카데미시상식 (각본상), 새틀라이트시상식 (각본상)</p> 
                         </div>
                     </div>
                 </div>
@@ -96,11 +95,12 @@
         </div>
 
         <div class="trailer-detail">
-            <video src="trailer/spy.mp4" class = "video-info" controls autoplay muted></video>
+            <video src="trailer/getout.mp4" class="video-info" controls autoplay muted></video>
         </div>
 
         <div class="line-second">
         </div>
+
 
         <div class="font-info">
             스틸컷
@@ -110,19 +110,19 @@
             <div class="row">
                 <div class="col-1-of-3">
                     <div class="poster">
-                       <img src="img/spy-cut.jpg" alt="" class="still-cut">
+                       <img src="img/getout-cut.jpg" alt="" class="still-cut">
                     </div>
                 </div>
 
                 <div class="col-1-of-3">
                     <div class="poster">
-                        <img src="img/spy-cut02.jpg" alt="" class="still-cut">
+                        <img src="img/getout-cut02.jpg" alt="" class="still-cut">
                     </div>
                 </div>
 
                 <div class="col-1-of-3">
                     <div class="poster">
-                        <img src="img/spy-cut03.jpg" alt="" class="still-cut">
+                        <img src="img/getout-cut03.jpg" alt="" class="still-cut">
                     </div>
                 </div>
             </div>
@@ -135,56 +135,81 @@
             출연진
         </div>
 
+
         <section class="section-top3">
             <div class="row">
                 <div class="col-1-of-6">
                     <div class="poster">
-                        <img src="img/paulpag.jpg" alt="" class="poster-actor">
+                        <img src="img/jordan.jpg" alt="" class="poster-actor">
                         <div class="movie-genre">
                             감독 
                         </div>
                         <div class="movie-name">
-                        폴 페이그
+                            조던 필
                         </div>
                     </div>
                 </div>
 
                 <div class="col-1-of-6">
                     <div class="poster">
-                        <img src="img/maccasy.jpg" alt="" class="poster-actor">
+                        <img src="img/kalruya.jpg" alt="" class="poster-actor">
                         <div class="movie-genre">
-                        수잔 쿠퍼 역
+                           크리스 역 
                         </div>
-                        <div class="movie-name">
-                        멜리사 맥카시
+                        <div class="movie-name">    
+                            다니엘 칼루야
                         </div>
                     </div>
                 </div>
 
                 <div class="col-1-of-6">
                     <div class="poster">
-                        <img src="img/stardem.jpg" alt="" class="poster-actor">
+                        <img src="img/tye.jpg" alt="" class="poster-actor">
                         <div class="movie-genre">
-                        릭 포드 역
+                            로즈 역 
                         </div>
                         <div class="movie-name">
-                        제이슨 스타뎀
+                            엘리슨 윌리엄스
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-1-of-6">
+                    <div class="poster">
+                        <img src="img/rosedep.jpg" alt="" class="poster-actor">
+                        <div class="movie-genre">
+                           셀라 역 
+                        </div>
+                        <div class="movie-name">
+                            릴리 로즈뎁 
                         </div>
                     </div>
                 </div>
 
                 <div class="col-1-of-6">
                     <div class="poster">
-                        <img src="img/judro.jpg" alt="" class="poster-actor">
+                        <img src="img/bradley.jpg "alt="" class="poster-actor">
                         <div class="movie-genre">
-                        브래들리 파인 역
+                            딘 역 
                         </div>
                         <div class="movie-name">
-                        주드 로
+                            브래들리 휘트포드
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="col-1-of-6">
+                    <div class="poster">
+                        <img src="img/kiner.jpg" alt="" class="poster-actor">
+                        <div class="movie-genre">
+                            미시 역 
+                        </div>
+                        <div class="movie-name">
+                            캐서린 키너
+                        </div>
+                    </div>
+                </div>
+            </div>        
         </section>
     
         <!--리뷰 시작-->
@@ -208,7 +233,7 @@
         </div>
 
         <?php
-            $search='스파이';
+            $search='겟아웃';
 
             $con=mysqli_connect("localhost","shqkd1492","1234","sungkyul");
             $sql="SELECT * FROM data where data_title like '%$search%'";
