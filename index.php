@@ -10,17 +10,16 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
         
-        <link rel="stylesheet" href="css/style.css?ver2">
+        <link rel="stylesheet" href="css/style.css?ver4">
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
         <script src="https://kit.fontawesome.com/cc6a12588a.js" crossorigin="anonymous"></script>
         <!--메인 아이콘-->
 
         <title>Film out</title>
     </head>
-    <body>
-        
+    <body>      
         <nav class="navbar">
             <a href="index.php">
                 <div class="navbar__logo">
@@ -56,6 +55,41 @@
         <div class="trailer">
             <video src="trailer/cruella.mp4" class="movie-size" controls autoplay muted></video>
         </div>
+
+        <!--스크롤-->
+        <div class="scrollbody">
+            <div class="menu">
+                <div class="menu--wrapper">
+                    <div class="menu--item">
+                    <figure><img src="img/cruella.jpg" alt="" /></figure>
+                    </div>
+
+                    <div class="menu--item">
+                    <figure><img src="img/conjuring.jpg" alt="" /></figure>
+                    </div>
+
+                    <div class="menu--item">
+                    <figure><img src="img/fast.jpg" alt="" /></figure>
+                    </div>
+
+                    <div class="menu--item">
+                    <figure><img src="img/fly.jpg" alt="" /></figure>
+                    </div>
+
+                    <div class="menu--item">
+                    <figure><img src="img/lastchild.jpg" alt="" /></figure>
+                    </div>
+
+                    <div class="menu--item">
+                    <figure><img src="img/river.jpg" alt="" /></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js'></script><script  src="./scrollscript.js"></script>
+
         <h2 class="heading-secondary">
             HOT
         </h2>
