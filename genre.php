@@ -465,7 +465,7 @@
 
                     <div class="col-1-of-3">
                         <div class="poster">
-                            <a href="the end.php"><img src="img/the end.jpg" alt="" class="poster-small"></a>
+                            <a href="theend.php"><img src="img/the end.jpg" alt="" class="poster-small"></a>
                             <div class="movie-genre">
                                 코미디
                             </div>
@@ -493,7 +493,7 @@
                 <div class="row">
                     <div class="col-1-of-3">
                         <div class="poster">
-                            <a href="ready.php"><img src="img/it.jpg" alt="" class="poster-small"></a>
+                            <a href="it.php"><img src="img/it.jpg" alt="" class="poster-small"></a>
                             <div class="movie-genre">
                                 호러
                             </div>
