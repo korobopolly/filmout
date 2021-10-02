@@ -54,13 +54,25 @@
 
         <!-- 영화 장르 및 이름 -->
         <div class="trailer">
-            <video src="trailer/cruella.mp4" class="movie-size" controls autoplay muted></video>
+            <video src="trailer/007.mp4" class="movie-size" controls autoplay muted></video>
         </div>
 
         <!--스크롤-->
         <div class="scrollbody">
             <div class="menu">
                 <div class="menu--wrapper">
+                    <div class="menu--item">
+                    <figure><img src="img/007.jpg" alt="" /></figure>
+                    </div>
+
+                    <div class="menu--item">
+                    <figure><img src="img/voice.jpg" alt="" /></figure>
+                    </div>
+
+                    <div class="menu--item">
+                    <figure><img src="img/venom.jpg" alt="" /></figure>
+                    </div>
+
                     <div class="menu--item">
                     <figure><img src="img/cruella.jpg" alt="" /></figure>
                     </div>
@@ -71,18 +83,6 @@
 
                     <div class="menu--item">
                     <figure><img src="img/fast.jpg" alt="" /></figure>
-                    </div>
-
-                    <div class="menu--item">
-                    <figure><img src="img/fly.jpg" alt="" /></figure>
-                    </div>
-
-                    <div class="menu--item">
-                    <figure><img src="img/lastchild.jpg" alt="" /></figure>
-                    </div>
-
-                    <div class="menu--item">
-                    <figure><img src="img/river.jpg" alt="" /></figure>
                     </div>
                 </div>
             </div>
@@ -98,36 +98,36 @@
             <div class="row">
                 <div class="col-1-of-3">
                     <div class="poster">
-                        <a href="cruella.php"><img src="img/cruella.jpg" alt="" class="poster-small"></a>
+                        <a href="007.php"><img src="img/007.jpg" alt="" class="poster-small"></a>
                         <div class="movie-genre">
-                            드라마 / 범죄 / 코미디
+                            액션 / 블록버스터
                         </div>
                         <div class="movie-name">
-                            크루엘라
+                            007 노타임 투 다이
                         </div>
                     </div>
                 </div>
 
                 <div class="col-1-of-3">
                     <div class="poster">
-                        <a href="conjuring.php"><img src="img/conjuring.jpg" alt="" class="poster-small"></a>
+                        <a href="voice.php"><img src="img/voice.jpg" alt="" class="poster-small"></a>
                         <div class="movie-genre">
-                            호러 / 스릴러 / 미스터리
+                            범죄 / 액션
                         </div>
                         <div class="movie-name">
-                            컨저링 3 : 악마가 시켰다
+                            보이스
                         </div>
                     </div>
                 </div>
 
                 <div class="col-1-of-3">
                     <div class="poster">
-                        <a href="fast.php"><img src="img/fast.jpg" alt="" class="poster-small"></a>
+                        <a href="venom.php"><img src="img/venom.jpg" alt="" class="poster-small"></a>
                         <div class="movie-genre">
-                            액션
+                            액션 / SF / 스릴러
                         </div>
                         <div class="movie-name">
-                            분노의 질주 : 더 얼티메이트
+                            베놈 2 : 렛 데어 비 카니지
                         </div>
                     </div>
                 </div>
@@ -240,6 +240,6 @@
         </section>
     </body>
     <footer>
-        <div class="foot-text">About FilmOut &nbsp;&nbsp;&nbsp; <a href="mailto: ms.nununana@gmail.com" title="광고 문의" class="foot-text-link">광고</a> &nbsp;&nbsp;&nbsp; <a href="mailto: ms.nununana@gmail.com" title="문의 / 피드백" class="foot-text-link">문의 / 피드백</a></div>
+        <div class="foot-text">About FilmOut &nbsp;&nbsp;&nbsp; <a href="mailto: ms.nununana@gmail.com" title="광고 문의" class="foot-text-link">광고</a> &nbsp;&nbsp;&nbsp; <a href="https://docs.google.com/forms/d/1gH2ionU23lAPUTwCv0WHIBtoH3fgnrrdyfh9KZ42Klg/edit" title="문의 / 피드백" class="foot-text-link">문의 / 피드백</a></div>
     </footer>
 </html>
