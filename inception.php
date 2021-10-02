@@ -48,7 +48,7 @@
         
         <div class="main_text1">
             <h1 class="heading-first">인셉션</h1>
-            <div class="contents1"> 인셉션
+            <div class="contents1"> SF / 액션
                 <div class="service">
                     <div>
                         <img src="img/inception.jpg" class="poster-info">
