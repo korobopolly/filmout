@@ -24,6 +24,7 @@
 
             <ul class="navbar__menu">
                 <li><a href="genre.php">장르별</a></li>
+                <li><a href="star.php">평점별</a></li>
                 <li><a href="independent.php">독립영화관</a></li>
                 <li><a href="data_management.php">영화 후기</a></li>
             </ul>  

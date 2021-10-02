@@ -46,38 +46,33 @@
             <h1 class="heading-first-class"> 평점별</h1>
             <div class="dropdown">  
                 <button type="button" class="dropdown-toggle">
-                    장르를 선택해주세요
+                    평점을 선택해주세요
                 </button>
     
                 <ul class="dropdown-menu">
-                    <div class="dropdown-item" onclick="location.href='comedy.php'" style="cursor:pointer;">
+                    <div class="dropdown-item" onclick="location.href='star9.php'" style="cursor:pointer;">
                         <button type="button" value="1" class="dropdown-option" >
-                            코미디
+                            9.0 이상
                         </button>
-                        </div>
-                    <div class="dropdown-item" onclick="location.href='sf.php'" style="cursor:pointer;">
+                    </div>
+                    <div class="dropdown-item" onclick="location.href='star8.php'" style="cursor:pointer;">
                         <button type="button" value="2" class="dropdown-option" >
-                            SF
+                            8.0 이상
                         </button>
                     </div>
-                    <div class="dropdown-item" onclick="location.href='drama.php'" style="cursor:pointer;">
+                    <div class="dropdown-item" onclick="location.href='star7.php'" style="cursor:pointer;">
                         <button type="button" value="3" class="dropdown-option">
-                            드라마
+                            7.0 이상
                         </button>
                     </div>
-                    <div class="dropdown-item" onclick="location.href='thriller.php'" style="cursor:pointer;">
+                    <div class="dropdown-item" onclick="location.href='star6.php'" style="cursor:pointer;">
                         <button type="button" value="4" class="dropdown-option">
-                            스릴러
+                            6.0 이상
                         </button>
                     </div>
-                    <div class="dropdown-item" onclick="location.href='crime.php'" style="cursor:pointer;">
+                    <div class="dropdown-item" onclick="location.href='star5.php'" style="cursor:pointer;">
                         <button type="button" value="5" class="dropdown-option">
-                            범죄
-                        </button>
-                    </div>
-                    <div class="dropdown-item" onclick="location.href='horror.php'" style="cursor:pointer;">
-                        <button type="button" value="6" class="dropdown-option">
-                            호러
+                            5.0 이상
                         </button>
                     </div>
                 </ul>
@@ -518,12 +513,12 @@
 
                     <div class="col-1-of-3">
                         <div class="poster">
-                           <a href="tenet.php"><img src="img/tenet.jpg" alt="" class="poster-small"></a>
+                            <a href="taxi.php"><img src="img/taxi.jpg" alt="" class="poster-small"></a>
                             <div class="movie-genre">
-                                SF / 액션
+                                드라마
                             </div>
                             <div class="movie-name">
-                                테넷
+                                택시 운전사
                             </div>
                         </div>
                     </div>
@@ -583,7 +578,6 @@
                             </div>
                         </div>
                     </div>
-            
 
                     <div class="col-1-of-3">
                         <div class="poster">
@@ -615,15 +609,15 @@
                 <div class="row">
                     <div class="col-1-of-3">
                         <div class="poster">
-                            <a href="hangover.php"><img src="img/hangover.jpg" alt="" class="poster-small"></a>
+                            <a href="bad.php"><img src="img/bad.jpg" alt="" class="poster-small"></a>
                             <div class="movie-genre">
                                 코미디
                             </div>
                             <div class="movie-name">
-                                행오버
+                                나쁜 이웃들
                             </div>
                         </div>
-                    </div>
+                    </div>  
 
                     <div class="col-1-of-3">
                         <div class="poster">
@@ -679,12 +673,12 @@
 
                     <div class="col-1-of-3">
                         <div class="poster">
-                            <a href="bucket.php"><img src="img/bucket.jpg" alt="" class="poster-small"></a>
+                            <a href="war.php"><img src="img/war.jpg" alt="" class="poster-small"></a>
                             <div class="movie-genre">
-                                드라마
+                                범죄
                             </div>
                             <div class="movie-name">
-                                버킷리스트
+                                범죄와의 전쟁
                             </div>
                         </div>
                     </div>
@@ -743,47 +737,7 @@
                                 악마는 프라다를 입는다
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-1-of-3">
-                        <div class="poster">
-                            <a href="bad.php"><img src="img/bad.jpg" alt="" class="poster-small"></a>
-                            <div class="movie-genre">
-                                코미디
-                            </div>
-                            <div class="movie-name">
-                                나쁜 이웃들
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-1-of-3">
-                        <div class="poster">
-                            <a href="taxi.php"><img src="img/taxi.jpg" alt="" class="poster-small"></a>
-                            <div class="movie-genre">
-                                드라마
-                            </div>
-                            <div class="movie-name">
-                                택시 운전사
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section class="section-top3">
-                <div class="row">
-                    <div class="col-1-of-3">
-                        <div class="poster">
-                            <a href="war.php"><img src="img/war.jpg" alt="" class="poster-small"></a>
-                            <div class="movie-genre">
-                                범죄
-                            </div>
-                            <div class="movie-name">
-                                범죄와의전쟁
-                            </div>
-                        </div>
-                    </div>
+                    </div>                 
                 </div>
             </section>
         </div>

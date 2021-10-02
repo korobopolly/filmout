@@ -25,6 +25,7 @@
 
             <ul class="navbar__menu">
                 <li><a href="genre.php">장르별</a></li>
+                <li><a href="star.php">평점별</a></li>
                 <li><a href="independent.php">독립영화관</a></li>
                 <li><a href="data_management.php">영화 후기</a></li>
             </ul>   
@@ -53,7 +54,7 @@
                         <button type="button" value="1" class="dropdown-option" >
                             코미디
                         </button>
-                        </div>
+                    </div>
                     <div class="dropdown-item" onclick="location.href='sf.php'" style="cursor:pointer;">
                         <button type="button" value="2" class="dropdown-option" >
                             SF
@@ -682,7 +683,7 @@
                                 범죄
                             </div>
                             <div class="movie-name">
-                                범죄와의전쟁
+                                범죄와의 전쟁
                             </div>
                         </div>
                     </div>
